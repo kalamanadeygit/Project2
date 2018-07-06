@@ -1,0 +1,36 @@
+.section1 {
+    background-image: url(' ../assets/backgrounds/landing.jpg');
+     height:600px;
+     background-repeat: no-repeat;
+}
+.divsh {
+    display: none;
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 200px;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size:1.5em;
+}
+.centered2 {
+  position: absolute;
+  top: 50%;
+  left: 550px;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size:1.5em;
+}
+.centered3 {
+  position: absolute;
+  top: 50%;
+  left: 880px;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size:1.5em;
+}
+.happy{
+  background-color:red;
+  width:200px;
+}
