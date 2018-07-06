@@ -1,4 +1,4 @@
-.section1 {
+.backgrounds1 {
     background-image: url(' ../assets/backgrounds/landing.jpg');
      height:600px;
      background-repeat: no-repeat;
@@ -6,31 +6,85 @@
 .divsh {
     display: none;
   }
-  .centered {
+
+.images {
+    position: relative;
+    background-color: white;
+}
+.imageslunch {
+    position: relative;
+background-color: rgba(255, 255, 255, 0.5);
+}
+
+.caption {
+  color: white;
+  font-size:1.5em;
     position: absolute;
-    top: 50%;
-    left: 200px;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size:1.5em;
+    top: 45%;
+    left: 0;
+    width: 100%;
+    font-family: catamaran;
 }
-.centered2 {
-  position: absolute;
-  top: 50%;
-  left: 550px;
-  transform: translate(-50%, -50%);
-  color: white;
-  font-size:1.5em;
-}
-.centered3 {
-  position: absolute;
-  top: 50%;
-  left: 880px;
-  transform: translate(-50%, -50%);
-  color: white;
-  font-size:1.5em;
-}
+
 .happy{
-  background-color:red;
-  width:200px;
+    position: relative;
+background-color:red;
+width:190px;
+
+}
+.happyhour{
+  background-color:white;
+  width:220px;
+  height:100px;
+  color: black;
+}
+.partytime{
+  background-color:rgba(236,94,0,1.0);
+  width:220px;
+  height:110px;
+  color: black;
+}
+.menu{
+  position: absolute;
+  top: 50%;
+  left:600px;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size:1.5em;
+}
+ .textfastfood{
+   margin-left: 500px;
+   margin-top:50px;
+   text-align: justify;
+   width: 100px;
+ }
+ .fastFood1div{
+   margin-left:50px;
+ }
+ .part2img {
+   margin-left:100px;
+ }
+ . btnc{
+   border: black;
+ }
+ .img1{
+   float:right;
+
+ }
+ .img2{
+float: left;
+ }
+ .backgrounds2{
+   margin-top:700px;
+   background-image: url(' ../assets/backgrounds/foodsBg.jpg');
+    height:600px;
+    background-repeat: no-repeat;
+    ;
+ }
+.fastfood2{
+  position: absolute;
+  background-color:white;
+}
+.p-color{
+  color:#F15A29;
 }
