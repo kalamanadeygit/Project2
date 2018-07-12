@@ -44,6 +44,12 @@ width:190px;
   height:110px;
   color: black;
 }
+.dinner2 {
+  background-image: url(' ../assets/backgrounds/dinner2.jpg');
+}
+.dinner2 :hover{
+  background-image: url(' ../assets/backgrounds/dinner2.jpg')
+}
 .menu{
   position: absolute;
   top: 50%;
@@ -52,39 +58,135 @@ width:190px;
   color: white;
   font-size:1.5em;
 }
- .textfastfood{
-   margin-left: 500px;
-   margin-top:50px;
-   text-align: justify;
-   width: 100px;
- }
  .fastFood1div{
-   margin-left:50px;
+    font-size: 1.8em;
+    text-align: left;
  }
- .part2img {
-   margin-left:100px;
+ .Drinksdiv{
+   font-size: 1.8em;
+   text-align:right;
  }
  . btnc{
    border: black;
  }
  .img1{
    float:right;
-
  }
  .img2{
 float: left;
  }
- .backgrounds2{
-   margin-top:700px;
-   background-image: url(' ../assets/backgrounds/foodsBg.jpg');
-    height:600px;
-    background-repeat: no-repeat;
-    ;
- }
+
 .fastfood2{
-  position: absolute;
   background-color:white;
+  margin-top:100px;
 }
 .p-color{
   color:#F15A29;
+}
+.section2{
+  margin-top:40px;
+}
+.divsect2{
+  margin-top: 40px;
+}
+.backgrounds2{
+  margin-top:30px;
+  background-image: url(' ../assets/backgrounds/foodsBg.jpg');
+   height:600px;
+   background-repeat: no-repeat;
+}
+.divburg{
+  margin-top:20px;
+}
+.info{
+  margin-top: ;
+}
+.backgrounds3{
+  margin-top:30px;
+   height:300px;
+}
+.backgrounds4{
+    background-image: url(' ../assets/backgrounds/subscribe.jpg');
+   height:304px;
+   background-repeat: no-repeat;
+   position:relative;
+}
+
+.hf{
+  color: white;
+
+}
+.input{
+  width:300px;
+  height:40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  font-size: 1.2em;
+}
+.btnf{
+  width: 200px;
+  height: 40px;
+background-color: #F15A29; }
+  .form{
+    margin-top: 40px;
+    margin-left: 400px;
+  }
+  .backgrounds5{
+background-color: #F15A29;
+     height:220px;
+     background-repeat: no-repeat;
+     position:relative;
+  }
+.footext{
+  color: white;
+  font-size:;
+}
+
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
 }
